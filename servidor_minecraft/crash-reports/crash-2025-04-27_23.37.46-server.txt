@@ -1,0 +1,50 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 4/27/25 11:37 PM
+Description: Exception in server tick loop
+
+Duplicate Mods:
+	geckolib3 : /workspaces/server2/servidor_minecraft/./mods/Jenny-Mod-Forge-1.12.2-v1.8.0.jar
+	geckolib3 : /workspaces/server2/servidor_minecraft/./mods/geckolib-forge-1.12.2-3.0.30.jar
+
+net.minecraftforge.fml.common.DuplicateModsFoundException
+	at net.minecraftforge.fml.common.Loader.identifyDuplicates(Loader.java:466)
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:428)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.8.0-1026-azure
+	Java Version: 1.8.0_442, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 1543944192 bytes (1472 MB) / 2058354688 bytes (1963 MB) up to 9544663040 bytes (9102 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx10G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 7 mods loaded, 0 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID        | Version      | Source                            | Signature                                |
+	|:----- |:--------- |:------------ |:--------------------------------- |:---------------------------------------- |
+	|       | minecraft | 1.12.2       | minecraft.jar                     | None                                     |
+	|       | mcp       | 9.42         | minecraft.jar                     | None                                     |
+	|       | FML       | 8.0.99.99    | forge-1.12.2-14.23.5.2860.jar     | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	|       | forge     | 14.23.5.2860 | forge-1.12.2-14.23.5.2860.jar     | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	|       | geckolib3 | 3.0.30       | geckolib-forge-1.12.2-3.0.30.jar  | None                                     |
+	|       | sexmod    | 1.8.0        | Jenny-Mod-Forge-1.12.2-v1.8.0.jar | None                                     |
+	|       | geckolib3 | 3.0.30       | Jenny-Mod-Forge-1.12.2-v1.8.0.jar | None                                     |
+
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

@@ -1,235 +1,46 @@
-[23:31:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[23:31:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[23:31:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[23:31:14] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[23:31:14] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1026-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[23:31:14] [main/INFO] [FML]: Searching /workspaces/server2/servidor_minecraft/./mods for mods
-[23:31:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:31:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[23:31:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:31:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:31:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:31:16] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[23:31:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:31:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[23:31:16] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[23:31:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[23:31:16] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[23:31:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[23:31:18] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[23:31:19] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[23:31:19] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[23:31:19] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[23:31:19] [Server thread/INFO] [FML]: Searching /workspaces/server2/servidor_minecraft/./mods for mods
-[23:31:19] [Server thread/INFO] [FML]: Mod geckolib3 is missing the required element 'name'. Substituting geckolib3
-[23:31:19] [Server thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[23:31:20] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[23:31:20] [Server thread/WARN] [FML]: Missing English translation for geckolib3: assets/geckolib3/lang/en_us.lang
-[23:31:20] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at CLIENT
-[23:31:20] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at SERVER
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.D for mod sexmod
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bj for mod sexmod
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c2$a for mod sexmod
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ba for mod sexmod
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bc for mod sexmod
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.o for mod sexmod
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.by$b for mod sexmod
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.D for mod geckolib3
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bj for mod geckolib3
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c2$a for mod geckolib3
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ba for mod geckolib3
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bc for mod geckolib3
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.o for mod geckolib3
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.by$b for mod geckolib3
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[23:31:20] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:31:20] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:31:20] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[23:31:20] [Server thread/WARN] [FML]: ****************************************
-[23:31:20] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[23:31:20] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[23:31:20] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[23:31:20] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[23:31:20] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[23:31:20] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[23:31:20] [Server thread/INFO] [FML]: Applying holder lookups
-[23:31:20] [Server thread/INFO] [FML]: Holder lookups applied
-[23:31:20] [Server thread/INFO] [FML]: Applying holder lookups
-[23:31:20] [Server thread/INFO] [FML]: Holder lookups applied
-[23:31:20] [Server thread/INFO] [FML]: Applying holder lookups
-[23:31:20] [Server thread/INFO] [FML]: Holder lookups applied
-[23:31:20] [Server thread/INFO] [FML]: Applying holder lookups
-[23:31:20] [Server thread/INFO] [FML]: Holder lookups applied
-[23:31:20] [Server thread/INFO] [FML]: Injecting itemstacks
-[23:31:20] [Server thread/INFO] [FML]: Itemstack injection complete
-[23:31:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[23:31:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[23:31:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[23:31:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[23:31:21] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[23:31:21] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:31:21] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[23:31:21] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:31:21] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:31:21] [Server thread/INFO] [FML]: Applying holder lookups
-[23:31:21] [Server thread/INFO] [FML]: Holder lookups applied
-[23:31:21] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.Q from class com.schnurritv.sexmod.U
-[23:31:21] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[23:31:21] [Server thread/INFO] [FML]: Injecting itemstacks
-[23:31:21] [Server thread/INFO] [FML]: Itemstack injection complete
-[23:31:21] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
-[23:31:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[23:31:21] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[23:31:21] [Server thread/INFO] [FML]: Applying holder lookups
-[23:31:21] [Server thread/INFO] [FML]: Holder lookups applied
-[23:31:21] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@607d71a2)
-[23:31:22] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[23:31:22] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@607d71a2)
-[23:31:22] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@607d71a2)
-[23:31:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[23:31:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 59%
-[23:31:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.906s)! For help, type "help" or "?"
-[23:31:23] [Server thread/INFO] [FML]: Unloading dimension -1
-[23:31:23] [Server thread/INFO] [FML]: Unloading dimension 1
-[23:31:27] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[23:31:27] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 4 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,mcp@9.42
-[23:31:27] [Netty Epoll Server IO #1/INFO] [FML]: Attempting connection with missing mods [sexmod, geckolib3] at CLIENT
-[23:31:27] [Netty Epoll Server IO #1/INFO] [FML]: Rejecting connection CLIENT: SchnurriTV's Sexmod: Requires version 1.8.0 but mod is not found on client.
-geckolib3: Requires version 3.0.30 but mod is not found on client.
-[23:31:27] [Netty Epoll Server IO #1/ERROR] [FML]: Network Disconnect: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but mod is not found on client.
-geckolib3: Requires version 3.0.30 but mod is not found on client.
-[23:31:27] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: johanprodox lost connection: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but mod is not found on client.
-geckolib3: Requires version 3.0.30 but mod is not found on client.
-[23:31:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: johanprodox left the game
-[23:32:06] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
-[23:32:06] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
-[23:32:07] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[23:32:07] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: LinenFeather949[/127.187.221.159:57851] logged in with entity id 303 at (-251.65970614254115, 63.0, -135.2118998344481)
-[23:32:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: LinenFeather949 joined the game
-[23:32:37] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: LinenFeather949 lost connection: Disconnected
-[23:32:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: LinenFeather949 left the game
-[23:33:31] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[23:33:31] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
-[23:33:31] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[23:33:31] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: LinenFeather949[/127.187.221.159:43273] logged in with entity id 669 at (-286.4422261988701, 63.0, -154.02117468441335)
-[23:33:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: LinenFeather949 joined the game
-[23:33:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: LinenFeather949 lost connection: Disconnected
-[23:33:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: LinenFeather949 left the game
-[23:33:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
-[23:33:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[23:33:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[23:33:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[23:33:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[23:33:56] [Server thread/INFO] [FML]: Unloading dimension 0
-[23:33:56] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[23:33:56] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[23:33:56] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[23:37:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[23:37:40] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[23:37:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[23:37:40] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[23:37:40] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1026-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[23:37:40] [main/INFO] [FML]: Searching /workspaces/server2/servidor_minecraft/./mods for mods
+[23:37:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:37:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[23:37:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:37:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:37:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:37:41] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[23:37:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:37:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[23:37:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[23:37:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[23:37:42] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[23:37:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[23:37:44] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[23:37:44] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[23:37:44] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[23:37:45] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[23:37:45] [Server thread/INFO] [FML]: Searching /workspaces/server2/servidor_minecraft/./mods for mods
+[23:37:45] [Server thread/INFO] [FML]: Mod geckolib3 is missing the required element 'name'. Substituting geckolib3
+[23:37:46] [Server thread/FATAL] [FML]: Found a duplicate mod geckolib3 at [./mods/Jenny-Mod-Forge-1.12.2-v1.8.0.jar, ./mods/geckolib-forge-1.12.2-3.0.30.jar]
+[23:37:46] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+net.minecraftforge.fml.common.DuplicateModsFoundException: 
+Duplicate Mods:
+	geckolib3 : /workspaces/server2/servidor_minecraft/./mods/Jenny-Mod-Forge-1.12.2-v1.8.0.jar
+	geckolib3 : /workspaces/server2/servidor_minecraft/./mods/geckolib-forge-1.12.2-3.0.30.jar
+
+
+	at net.minecraftforge.fml.common.Loader.identifyDuplicates(Loader.java:466) ~[Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:428) ~[Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) ~[Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) ~[FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) ~[nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+[23:37:46] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: /workspaces/server2/servidor_minecraft/./crash-reports/crash-2025-04-27_23.37.46-server.txt
+[23:37:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[23:37:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[23:37:46] [Server thread/INFO] [FML]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[23:37:46] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[23:37:46] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
